@@ -17,16 +17,14 @@ function add2(n)
   return n + two
 }
 
-var funkyFunction = function outsideFunction() {
+var funkyFunction = function () {
    
-   return function insideFunction() {
+   return function () {
       return 'FUNKY!'
    }
 }
 
-console.log(funkyFunction()())
+console.log(funkyFunction()());
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction
 
-var theFunk = funkyFunction((()))
-
-//theFunk((()));
+var theFunk = funkyFunction();
