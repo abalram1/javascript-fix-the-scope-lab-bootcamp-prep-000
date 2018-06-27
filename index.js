@@ -17,19 +17,12 @@ function add2(n)
   return n + two
 }
 
-var funkyFunction = function outsideFunction() {
-   
-   return function insideFunction() {
+var funkyFunction = function outsideFunction() 
+{
+   return function insideFunction() 
+   {
       return 'FUNKY!'
    }
 }
 
-//var funkyFunction = function () {
-   
-//   return function () {
-//      return 'FUNKY!'
-//   }
-//}
-
 var theFunk = funkyFunction()()
-//var theFunk = funkyFunction()(outsideFunction) (insideFunction)
