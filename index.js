@@ -24,6 +24,7 @@ var funkyFunction = function outsideFunction() {
    }
 }
 
+console.log()
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 
 var theFunk = funkyFunction();
