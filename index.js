@@ -31,5 +31,5 @@ var funkyFunction = function outsideFunction() {
 //   }
 //}
 
-//var theFunk = funkyFunction()()
-var theFunk = funkyFunction()(outsideFunction) (insideFunction)
+var theFunk = funkyFunction()()
+//var theFunk = funkyFunction()(outsideFunction) (insideFunction)
